@@ -1,0 +1,142 @@
+/* =============Fonts============ */
+
+@font-face {
+  font-family: 'Lobster';
+  src: url('../assets/files/Lobster-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'K2D';
+  src: url('../assets/files/K2D-SemiBold.ttf');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../assets/files/Poppins-SemiBold.ttf');
+}
+
+.logo {
+  font-family: 'Lobster', cursive !important;
+}
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+.second-font {
+  font-family: 'K2D', sans-serif;
+}
+
+.skill,
+.second-color,
+.logo:hover {
+  color: #333333d8 !important;
+}
+
+.principal-bg-color {
+  background-color: crimson;
+}
+
+.principal-color,
+.active {
+  color: crimson !important;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.principal-border-color,
+.form-btn {
+  border-color: crimson !important;
+}
+
+.shadow-inset-hover:hover {
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset !important;
+}
+
+.hero {
+  background-image: url('../assets/images/00.jpg');
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  background-attachment: fixed;
+  height: 100vh !important;
+}
+
+.text-shadow {
+  text-shadow: 2px 2px 2px gray, 3px 3px 3px gray, 4px 4px 4px gray;
+}
+
+.pt-center {
+  padding-top: 30vh;
+}
+
+.my-8 {
+  margin: 8% auto;
+}
+
+.w-skill {
+  width: 290px !important;
+}
+
+.wordpress {
+  color: #21759b;
+}
+
+.laravel {
+  color: #f05340;
+}
+
+.w-portfolio {
+  width: 20em;
+}
+
+a:hover,
+.form-btn:hover {
+  color: crimson !important;
+}
+
+.h-portfolio-img {
+  height: 310px;
+}
+
+.mt-50 {
+  margin-top: 50%;
+}
+
+.portfolio-visible:hover {
+  opacity: 1 !important;
+}
+
+.form-control:focus {
+  border: none;
+  box-shadow: 0 1px rgba(0, 0, 0, 0.075), 0 0 8px grey;
+}
+
+/* success notification*/
+
+.success {
+  top: 5% !important;
+  right: 0%;
+  visibility: hidden !important;
+  transform: translateY(-200px);
+  transition: 0.5s;
+}
+
+.success-show {
+  visibility: visible !important;
+  transform: translateY(0);
+  transition: 0.5s;
+}
+
+@media screen and (max-width: 1200px) and (min-width: 900px) {
+  .w-portfolio {
+    width: 19em;
+  }
+}
+
+@media screen and (max-width: 900px) and (min-width: 700px) {
+  .w-skill {
+    width: 200px !important;
+  }
+}
