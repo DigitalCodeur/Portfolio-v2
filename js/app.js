@@ -81,9 +81,6 @@ myForm.addEventListener("submit", function (e) {
         }
 
         xhttp.open("POST", "https://scodeur.alwaysdata.net/php/form.php"); // send to php without reloading the page
-
-        console.log(xhttp)
-
         xhttp.send(data);
         myForm.reset();
     } else {

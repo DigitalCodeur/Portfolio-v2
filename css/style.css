@@ -3,16 +3,19 @@
 @font-face {
   font-family: 'Lobster';
   src: url('../assets/files/Lobster-Regular.ttf');
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'K2D';
   src: url('../assets/files/K2D-SemiBold.ttf');
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'Poppins';
   src: url('../assets/files/Poppins-SemiBold.ttf');
+  font-display: swap;
 }
 
 .logo {
@@ -56,7 +59,7 @@
 }
 
 .hero {
-  background-image: url('../assets/images/00.jpg');
+  background-image: url('../assets/images/00.webp');
   background-repeat: no-repeat;
   background-size: cover !important;
   background-attachment: fixed;
