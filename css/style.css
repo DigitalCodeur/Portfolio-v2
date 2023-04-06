@@ -2,19 +2,19 @@
 
 @font-face {
   font-family: 'Lobster';
-  src: url('../assets/files/Lobster-Regular.ttf');
+  src: url('../assets/fonts/Lobster-Regular.ttf');
   font-display: swap;
 }
 
 @font-face {
   font-family: 'K2D';
-  src: url('../assets/files/K2D-SemiBold.ttf');
+  src: url('../assets/fonts/K2D-SemiBold.ttf');
   font-display: swap;
 }
 
 @font-face {
   font-family: 'Poppins';
-  src: url('../assets/files/Poppins-SemiBold.ttf');
+  src: url('../assets/fonts/Poppins-SemiBold.ttf');
   font-display: swap;
 }
 
@@ -91,7 +91,7 @@
 }
 
 .w-portfolio {
-  width: 20em;
+  width: 350px;
 }
 
 a:hover,
@@ -100,11 +100,7 @@ a:hover,
 }
 
 .h-portfolio-img {
-  height: 310px;
-}
-
-.mt-50 {
-  margin-top: 50%;
+  object-fit: cover;
 }
 
 .portfolio-visible:hover {
@@ -134,7 +130,7 @@ a:hover,
 
 @media screen and (max-width: 1200px) and (min-width: 900px) {
   .w-portfolio {
-    width: 19em;
+    width: 300px;
   }
 }
 
